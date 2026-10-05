@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#listaProdutos {
+    padding: 0;
+}
+
+.item-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #eee;
+}
+
+.botoes {
+    display: flex;
+    gap: 8px;
+}
+
+.editar {
+    background-color: #ddd;
+}
+
+.remover {
+    background-color: #ffb3b3;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

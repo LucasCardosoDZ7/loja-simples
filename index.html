@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Loja Simples</h1>
+    </header>
+
+    <main>
+        <h2>Cadastro de produtos</h2>
+
+        <form id="formProduto">
+            <label>Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label>Preço:</label>
+            <input type="number" id="preco" step="0.01" required>
+
+            <label>Quantidade:</label>
+            <input type="number" id="quantidade" required>
+
+            <button type="submit" id="botaoFormulario">
+                Adicionar produto
+            </button>
+        </form>
+
+        <p id="contador">Produtos cadastrados: 0</p>
+
+        <p id="listaVazia">Nenhum produto cadastrado.</p>
+
+        <ul id="listaProdutos"></ul>
+    </main>
+
+    <footer>
+        <p>Loja Simples - Projeto de Fundamentos Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
